@@ -1,6 +1,6 @@
 .main-container {
     font-family: 'Inter';
-    word-spacing: 2px;
+    word-spacing: 1.5px;
     display: grid;
     grid-template-columns: 65% auto;
     gap: 2em;
@@ -53,6 +53,8 @@
 }
 
 .article-button {
+    font-size: 1em;
+    letter-spacing: 3px;
     width: fit-content;
     border: none;
     padding: 0.8em 1.8em;
