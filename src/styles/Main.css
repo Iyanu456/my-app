@@ -96,11 +96,11 @@
     overflow: hidden;
     text-overflow: ellipsis;
     cursor: pointer;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 .aside-child > p {
     color: rgb(210, 225, 244);
-    font-size: 0.8em;
+    font-size: 0.95em;
     cursor: pointer;
 }
 .aside-child > h3:hover {
@@ -167,7 +167,9 @@
         font-size: 1.1em;
         margin: 0.2em auto;
     }
-    
+    .article-img-big {
+        min-height: 300px;
+    }
   }
 
   .article-card {
