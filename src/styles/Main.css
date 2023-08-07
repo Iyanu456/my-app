@@ -1,4 +1,6 @@
 .main-container {
+    font-family: 'Inter';
+    word-spacing: 2px;
     display: grid;
     grid-template-columns: 65% auto;
     gap: 2em;
@@ -65,6 +67,8 @@
 
 .large-heading {
     font-size: 2.3em;
+    font-family: 'Inter';
+    font-weight: 700;
 }
 
 /* aside section */
