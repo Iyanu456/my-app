@@ -1,38 +1,18 @@
 import React from 'react'
 import NavSection from './components/NavSection'
 import MainSection from './components/MainSection'
-import picture1 from './assets/images/image-retro-pcs.jpg'
-import picture2 from './assets/images/image-gaming-growth.jpg'
-import picture3 from './assets/images/image-top-laptops.jpg'
 import ArticleCard from './components/ArticleCard'
+import data from './data/seed.js'
 
 function App() {
 
-    let data = [
-        {
-            id: '01',
-            image: picture1,
-            title: 'Reviving Retro PCs',
-            caption: 'What happens when old PCs get upgrades'
-        },
-        {
-            id: '02',
-            image: picture2,
-            title: 'Reviving Retro PCs',
-            caption: 'What happens when old PCs get upgrades'
-        },
-        {
-            id: '03',
-            image: picture3,
-            title: 'Top 10 Laptops of 2022',
-            caption: 'What happens when old PCs get upgrades'
-        }
-    ]
-
     let customStyle = {
         display: "flex",
+        width: "100%",
+        flexWrap: "wrap",
+        justifyContent: "space-between",
+        //gridTemplateColumns: "1fr 1fr 1fr",
         gap: "1.2em",
-        justifyContent: "center",
         marginTop: "4em",
         marginBottom: "1em"
     }
@@ -42,7 +22,7 @@ function App() {
             <NavSection />
             <MainSection />
         </div>
-        <div style={customStyle}>
+        <div className="article-card-container" style={customStyle}>
             {data.map((items) => 
             <ArticleCard
             key={items.id}

@@ -1,5 +1,3 @@
-import React from 'react'
-import '../styles/ArticleCard.css'
 
 function ArticleCard(props) {
     return (
