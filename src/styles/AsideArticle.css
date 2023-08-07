@@ -1,0 +1,27 @@
+.aside-article {
+    display: grid;
+    gap: 1em;
+    background-color: rgb(30, 31, 33);
+    color: white;
+    padding: 1.5em 1.2em;
+}
+
+.aside-article > section {
+    border-bottom: 2px solid white;
+}
+
+.aside-article > section:last-child {
+    border-bottom: none;
+}
+.aside-article > h2 {
+    color: rgb(255, 180, 75);
+}
+.aside-child > h3 {
+    cursor: pointer;
+}
+.aside-child > p {
+    color: rgb(210, 225, 244);
+}
+.aside-child > h3:hover {
+    color: rgb(255, 180, 75);
+}
